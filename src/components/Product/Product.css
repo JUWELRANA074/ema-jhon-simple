@@ -1,0 +1,29 @@
+.product{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #4444;
+}
+
+.product-name{
+    color: rgb(71, 71, 202);
+    font-weight: 400;
+}
+
+.product .product-info{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.btn-regular{
+    background: rgb(214, 160, 22);
+    font-size: 16px;
+    border: 1px solid #4444;
+    padding:8px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-color{
+    color: rgb(214, 160, 22) ;
+}
