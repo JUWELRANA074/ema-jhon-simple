@@ -20,13 +20,13 @@ const OrderReview = () => {
     }
 
     const handelPlaceOrder = () => {
-        history.push('/placeorder');
+        history.push('/shipping');
 
         // clear cart when click order place button 
-        setCart([]);
+        // setCart([]);
 
         // clear data from local storage when click on place order 
-        clearTheCart();
+        // clearTheCart();
 
     }
 
@@ -48,7 +48,7 @@ const OrderReview = () => {
 
                         <button
                             onClick={handelPlaceOrder}
-                            className="btn-regular" >Place Order</button>
+                            className="btn-regular" >Proceed to Shipping</button>
 
                     </Cart>
                 </div>
