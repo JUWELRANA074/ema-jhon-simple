@@ -19,7 +19,7 @@ const OrderReview = () => {
         removeFromDb(key);
     }
 
-    const handelPlaceOrder = () => {
+    const handelProceedToShipping = () => {
         history.push('/shipping');
 
         // clear cart when click order place button 
@@ -47,7 +47,7 @@ const OrderReview = () => {
                     <Cart cart={cart} >
 
                         <button
-                            onClick={handelPlaceOrder}
+                            onClick={handelProceedToShipping}
                             className="btn-regular" >Proceed to Shipping</button>
 
                     </Cart>
